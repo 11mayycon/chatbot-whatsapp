@@ -1,0 +1,49 @@
+# Dependências
+node_modules/
+.pnpm-store/
+package-lock.json
+yarn.lock
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Diretórios de autenticação whatsapp
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Arquivos de banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Diretórios e arquivos específicos da aplicação
+sessions/
+
+# Arquivos temporários de transferência
+*.zip
+*.tar.gz
+
+# Arquivos de backup do banco
+*.db-backup
+*.db.bak
+
+# Logs locais
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs 

@@ -1,0 +1,26 @@
+{
+  "name": "ifood-das-contas-e-streamings",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp para vendas de telas de streaming - Ifood Das Contas e Streamings",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "form-data": "^4.0.2",
+    "groq-sdk": "^0.3.1",
+    "moment": "^2.29.4",
+    "multer": "^1.4.5-lts.2",
+    "qrcode-terminal": "^0.12.0",
+    "sqlite3": "^5.1.7",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
